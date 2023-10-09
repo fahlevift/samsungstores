@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+
+:root{
+--body-font: 'Poppins', sans-serif;
+
+--font-regular: 400;
+--font-medium: 500;
+--font-semi-bold: 600;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: var(--body-font);
+}
+
+body{
+    background-image: url(https://images.samsung.com/id/smartphones/galaxy-s23-ultra/images/galaxy-s23-ultra-highlights-kv.jpg);
+}
+
+.card{
+    background-color: #F1F0E8;
+    padding: 16px;
+    width: 90%;
+    height: 84%;
+    position: fixed;
+    transform: translate(-50% , -50%);
+    top: 50%;
+    left: 50%;
+    border-radius: 5px;
+    color: white;
+}
+
+.card1{
+    padding: 16px;
+    margin-left: 432px;
+    background-color: #ADC4CE;
+    color: white;
+    width: 25%;
+    height: 90%;
+    position: fixed;
+    transform: translate(-50% , -50%);
+    top: 50%;
+    left: 50%;
+    border-radius: 5px;
+    font-size: var(--font-regular);
+}
+
+.inputcart{
+    margin-top: 20px;
+}
+
+.inputtxt,
+.submitbtn{
+    margin: 10px;
+}
+
+.inputtxt input{
+    text-align: center;
+    padding: 3px;
+    border: none;
+    outline: 0;
+    height: 27px;
+    width: 100%;
+    border-radius: 4px;
+}
+
+.submitbtn{
+    margin-top: 30px;
+}
+
+.submitbtn input{
+    text-align: center;
+    padding: 3px;
+    border: none;
+    outline: 0;
+    height: 32px;
+    width: 100%;
+    border-radius: 4px;
+}
+
+.submitbtn input:hover{
+    background-color: #001524;
+    color: white;
+    transition: all 0.5s ease-in-out;
+    cursor: pointer;
+}
+
+.cartproduct{
+    margin-top: 50px;
+}
+
+.product{
+    width: 180px;
+    height: 95px;
+}
+
+.text p{
+    position: fixed;
+    top: 0;
+    margin-left: 120px;
+    margin-top: 142px;
+    color: black;
+    font-weight: var(--font-semi-bold);
+}
+
+
+.price p{
+    position: fixed;
+    top: 0;
+    margin-left: 700px;
+    margin-top: 142px;
+    color: black;
+}
+
+.quantity p{
+    position: fixed;
+    top: 0;
+    margin-left: 120px;
+    margin-top: 167px;
+    color: black;
+}
+
+
+

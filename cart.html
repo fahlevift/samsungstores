@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style1.css">
+    <title>CART</title>
+</head>
+<body>
+    <div class="card">
+        <div class="headercard">
+            <h3>Shoping Cart</h2>
+            <div class="cartproduct">
+                <div class="product">
+                    <img src="samsungs23.png" alt="" width="120px" height="120px">
+                </div>
+                <div class="text">
+                    <p>SAMSUNG GALAXY S23 ULTRA</p>
+                </div>
+                <div class="quantity">
+                    <p>Quantity = 1</p>
+                </div>
+                <div class="price">
+                    <p>Price : $999</p>
+                </div>
+                <br>
+                <hr style="border: 1px solid black; width: 70%;">
+            </div>
+        </div>
+        <div class="card1">
+            <h3>Card Details</h4>
+            <form action="/" method="post" onsubmit="alert('Thanks For Checkout');">
+                <div class="inputcart">
+                    <div class="inputtxt">
+                        <label for="">Name On Card</label>
+                        <br>
+                        <input type="text" name="" id="">
+                    </div>
+                    <div class="inputtxt">
+                        <label for="card_no">Card Number</label>
+                        <br>
+                        <input type="tel"
+                        id="card_no"
+                        name="card_no"
+                        pattern="[0-9]{4} [0-9]{4} [0-9]{4}"
+                        title="Card Format: xxxx xxxx xxxx"
+                        placeholder="xxxx xxxx xxxx"
+                        required="'required'"
+                        autocomplete="off">
+                    </div>
+                    <div class="inputtxt">
+                        <label for="">Expiration Date</label>
+                        <br>
+                        <input type="date" name="" id="">
+                    </div>
+                    <div class="submitbtn">
+                        <input type="submit" value="Check Out" />
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+    
+</body>
+</html>
